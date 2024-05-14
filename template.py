@@ -1,16 +1,5 @@
 import os
-import logging
 from pathlib import Path
-
-# Set up logging to both console and file
-log_folder = 'logs'
-os.makedirs(log_folder, exist_ok=True)  # Create logs folder if it doesn't exist
-
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:', handlers=[
-    logging.StreamHandler(),  # Output to console
-    logging.FileHandler(os.path.join(log_folder, 'logfile.log'))  # Output to file or log folder
-])
-
 
 project_name = "src"
 
