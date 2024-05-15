@@ -1,4 +1,4 @@
-COLOUMNS: 
+COLUMNS: 
   age: int64
   fnlwgt: int64
   educational-num: int64
