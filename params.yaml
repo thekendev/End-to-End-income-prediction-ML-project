@@ -1,4 +1,4 @@
 RandomForestClassifier:
-  max_depth: 20
-  min_samples_split: 4
-  n_estimators: 250
+  max_depth: 6
+  min_samples_split: 7
+  n_estimators: 25
